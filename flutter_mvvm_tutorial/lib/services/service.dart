@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter_mvvm_tutorial/model/picsum_model.dart';
 import 'package:http/http.dart' as http;
 
-class Services{
+class Service{
   Future<List<PicSumModel>> fectchPicturesAPI() async{
     String url = 'https://picsum.photos/v2/list';
 
